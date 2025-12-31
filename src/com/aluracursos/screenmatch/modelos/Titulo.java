@@ -9,6 +9,8 @@ public class Titulo {
     private double sumaDeLasEvaluaciones;
     private int totalDelasEvaluaciones;
 
+
+
     public String getNombre() {
         return nombre;
     }
