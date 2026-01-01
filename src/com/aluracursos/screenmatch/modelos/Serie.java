@@ -5,10 +5,12 @@ public class Serie extends Titulo {
     int espisodioPorTemeporada;
     int minutosPorEspisodio;
 
+
     //Constructor
-    public Serie(String nombre) {
-      this.setNombre(nombre);
+    public Serie(String nombre, int fechaDeLanzamiento) {
+        super(nombre, fechaDeLanzamiento);
     }
+
 
     @Override
     public int getDuracionEnMinutos() {
