@@ -3,17 +3,24 @@ package com.aluracursos.screenmatch.calculos;
 import com.aluracursos.screenmatch.modelos.Titulo;
 
 public class CalculadoraDeTiempo {
+
+    //Atributos
     private  int tiempoTotal;
+
+
 
     public int getTiempoTotal() {
 
         return tiempoTotal;
     }
 
+
+
     public  void incluye(Titulo titulo){
 
-        this.tiempoTotal+=titulo.getDuracionEnMinutos();
+        this.tiempoTotal += titulo.getDuracionEnMinutos();
     }
+
     /*
     public void incluye(Pelicula pelicula){
         tiempoTotal+= pelicula.getDuracionEnMinutos();

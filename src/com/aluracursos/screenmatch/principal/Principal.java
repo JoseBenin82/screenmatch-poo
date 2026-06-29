@@ -1,3 +1,5 @@
+package com.aluracursos.screenmatch.principal;
+
 import com.aluracursos.screenmatch.calculos.CalculadoraDeTiempo;
 import com.aluracursos.screenmatch.calculos.FiltroRecomendacion;
 import com.aluracursos.screenmatch.modelos.Episodio;
@@ -23,7 +25,7 @@ public class Principal {
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++ ");
 
-        Serie casaDragon = new Serie("La casa del Dragon",2022);
+        Serie casaDragon = new Serie("La casa del Dragon 2",2022);
         casaDragon.setTemporadas(1);
         casaDragon.setMinutosPorEspisodio(50);
         casaDragon.setEspisodioPorTemeporada(10);
@@ -65,6 +67,7 @@ public class Principal {
         System.out.println("La primera pelicula es:"+listaDePeliculas.get(0).getNombre());
 
         System.out.println(listaDePeliculas);
+
         System.out.println("toString de la Pelicula:"+listaDePeliculas.get(0).toString());
 
 

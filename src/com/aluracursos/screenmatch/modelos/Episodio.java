@@ -9,16 +9,20 @@ public class Episodio  implements Clasificacion {
     private int  totalVisualizaciones;
 
     public int getTotalVisualizaciones() {
+
         return totalVisualizaciones;
+
     }
 
     public void setTotalVisualizaciones(int totalVisualizaciones) {
+
         this.totalVisualizaciones = totalVisualizaciones;
     }
 
 
 
     public int getNumero() {
+
         return numero;
     }
 
@@ -30,6 +34,7 @@ public class Episodio  implements Clasificacion {
 
 
     public String getNombre() {
+
         return nombre;
     }
 
@@ -48,7 +53,7 @@ public class Episodio  implements Clasificacion {
     }
 
     @Override
-    public int getClasificacion() {
+    public int  getClasificacion() {
         if (totalVisualizaciones>100){
             return 4;
         }else{
